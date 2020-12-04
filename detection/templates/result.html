@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="IMG Upload Page">
+    <meta name="author" content="Ruizhi_Zhang">
+    {% load static %}
+    <title>结果页面</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+<header class="top-header">
+    <nav class="top-nav">
+      <a href="#">传送门1</a>
+      <a href="#">传送门2</a>
+      <a href="#">传送门3</a>
+    </nav>
+    <!--<span id="welcome-msg"></span>-->
+    <!--<a id="logout-link" href="logout">Logout</a>-->
+    <i id="avatar" class="avatar fa fa-user fa-2x"></i>
+</header>
+<div class="container">
+    <header>
+      <p>
+        <span>预测结果：</span>
+        <br />(*╹▽╹*)
+      </p>
+    </header>
+    <section class="main-section">
+        <h2>
+            {{data}}
+        </h2>
+    </section>
+</div>
+<footer>
+    <p class="title">国家电网大数据中心技术支持中心</p>
+    <p>这个页面真的没有没有UI设计师</p>
+    <p>大概是copyright吧</p>
+    <ul>
+      <li>
+        <p><i class="fa fa-map-o fa-2x"></i></p>
+        <p>也许是我司地址</p>
+      </li>
+      <li>
+        <p><i class="fa fa-envelope-o fa-2x"></i></p>
+        <p>应该是我司邮箱</p>
+      </li>
+      <li>
+        <p><i class="fa fa-phone fa-2x"></i></p>
+        <p>可能是我司电话</p>
+      </li>
+    </ul>
+</footer>
+</body>
+</html></html>
